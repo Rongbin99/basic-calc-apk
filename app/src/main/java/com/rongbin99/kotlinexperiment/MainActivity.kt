@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
         //variable declarations
         val first = valueA.text.toString().toDouble()
         val second = valueB.text.toString().toDouble()
-        var answer : Double
+        var answer = 0.0
         //if conditions for proceeding calculation
         when(v?.id) {
             R.id.add -> {
