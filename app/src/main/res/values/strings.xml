@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">KotlinExperiment</string>
+    <string name="add">Add</string>
+    <string name="sub">Sub</string>
+    <string name="enter_value_a">Enter Value A:</string>
+    <string name="enter_value_b">Enter Value B:</string>
+    <string name="multiply">Mul</string>
+    <string name="divide">Div</string>
+    <string name="answer">Answer</string>
 </resources>
