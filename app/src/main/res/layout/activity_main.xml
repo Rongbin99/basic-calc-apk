@@ -4,66 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_margin="20dp"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/valueA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/valueA"
         android:layout_margin="20dp"
+        android:gravity="center"
         android:hint="@string/enter_value_a"
-        android:inputType="number"
-        android:gravity="center"/>
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/valueB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:gravity="center"
         android:hint="@string/enter_value_b"
-        android:inputType="number"
-        android:gravity="center"/>
+        android:inputType="number" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:textAlignment="center">
+
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/add"
-            android:layout_margin="2dp"
-            android:text="@string/add"/>
-        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/add" />
+
+        <Button
             android:id="@+id/sub"
-            android:layout_margin="2dp"
-            android:text="@string/sub"/>
-        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/sub" />
+
+        <Button
             android:id="@+id/multiply"
-            android:layout_margin="2dp"
-            android:text="@string/multiply"/>
-        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/divide"
             android:layout_margin="2dp"
-            android:text="@string/divide"/>
+            android:text="@string/multiply" />
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/divide" />
     </LinearLayout>
 
     <TextView
+        android:id="@+id/answer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/answer"
-        android:text="@string/answer"
-        android:textSize="28sp"
         android:layout_marginTop="30dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="@string/answer"
+        android:textSize="28sp" />
 
 </LinearLayout>
